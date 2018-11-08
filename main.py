@@ -23,11 +23,13 @@ try:
     k = l
 except:
     print('\033[1;31mQUANTIDADE MINIMA INVALIDA')
+    exit()
 print('')
 try:
     j = int(input('[*] Entre coma a quantidade maxima de caracteres >> '))
 except:
     print('\033[1;31mQUANTIDADE MAXIMA INVALIDA')
+    exit()
 print('')
 qtchrs = len(chrs)
 p = []
