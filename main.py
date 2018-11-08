@@ -18,10 +18,16 @@ input('Pressione enter...')
 print('')
 chrs = input('[*] Entre com os caracteres para combinação >> ')
 print('')
-l = int(input('[*] Entre com a quantidade minima de caracteres >> '))
-k = l
+try:
+    l = int(input('[*] Entre com a quantidade minima de caracteres >> '))
+    k = l
+except:
+    print('\033[1;31mQUANTIDADE MINIMA INVALIDA')
 print('')
-j = int(input('[*] Entre coma a quantidade maxima de caracteres >> '))
+try:
+    j = int(input('[*] Entre coma a quantidade maxima de caracteres >> '))
+except:
+    print('\033[1;31mQUANTIDADE MAXIMA INVALIDA')
 print('')
 qtchrs = len(chrs)
 p = []
