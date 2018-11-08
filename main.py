@@ -82,7 +82,7 @@ while True:
     totaltime = end-start
     print(f'\t [*] Tempo total: {totaltime:.2f} segundos')
     rate = totaltime/tline
-    print(f'\t [*] Taxa de combinações por segundo: {rate:.2f}')
+    print(f'\t [*] Taxa de combinações por segundo: {rate:.4f}')
     print(f'\t [*] Tamanho: {path.getsize(zt)} Bytes')
     print(f"{'*'*50}")
     break
