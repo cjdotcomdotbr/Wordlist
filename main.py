@@ -22,13 +22,13 @@ try:
     l = int(input('[*] Entre com a quantidade minima de caracteres >> '))
     k = l
 except:
-    print('\033[1;31mQUANTIDADE MINIMA INVALIDA')
+    print('\033[1;31mQUANTIDADE MINIMA INVALIDA \033[0m')
     exit()
 print('')
 try:
     j = int(input('[*] Entre coma a quantidade maxima de caracteres >> '))
 except:
-    print('\033[1;31mQUANTIDADE MAXIMA INVALIDA')
+    print('\033[1;31mQUANTIDADE MAXIMA INVALIDA \033[0m')
     exit()
 print('')
 qtchrs = len(chrs)
